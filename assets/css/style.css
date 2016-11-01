@@ -1,0 +1,260 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/subtle_white.png);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+.myNameDiv {
+  color: white;
+  background: white;
+  display: default;
+  position: relative;
+  width: 100%;
+  padding: 26px;
+  font-size:20px;
+  font-family: "Arial", "sans-sarif", "times";
+  border-bottom: 2px solid #ccc;
+}
+
+.myName {
+  float: left;
+  color: white;
+  padding-right: 70px;
+  background: #4aaaa5;
+  display: fixed;
+  position: relative;
+  right: 30px;
+  bottom: 50px;
+  padding: 28px;
+  font-size:20px;
+  margin-left: 70px;
+  font-weight: bold;
+  font-family: "Arial", "sans-sarif", "times";
+}
+
+h2 {
+  color: #4aaaa5;
+  font-family: "Arial", "sans-sarif", "times";
+  font-weight: bold;
+  font-size: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+h2:after {
+  content: ' ';
+  display: block;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  text-align: center;
+  color: #4aaaa5;
+  font-family: "Arial", "sans-sarif", "times";
+  font-weight: bold;
+  display: inline;
+  position: relative;
+
+}
+
+h3:after {
+  content: ' ';
+  display: block;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.stack-logo, .linked-logo, .git-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.port-1, .port-2, .port-3, .port-4, .port-5 {
+  height: 120px;
+  width: 200px;
+  margin: 15px;
+}
+
+.portfolio {
+  border: 10px solid white;
+  position: relative;
+  display: inline-block;
+  width: 460px;
+  right: 267px;
+  height: 550px;
+  background: white;
+  margin-bottom: 150px;
+}
+
+.port-pics {
+  position: relative;
+  bottom: 65px;
+}
+
+.message-field {
+  height: 120px;
+  width: 350px;
+}
+
+.submit {
+  font-size: 13px;
+  font-family: arial;
+  background: #4aaaa5;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 4px solid #4aaaa5;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.Amenu, .Cmenu, .Pmenu {
+  color: #ccc;
+  margin: 5px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.Cmenu {
+  margin-right: 150px;
+}
+
+.my-pic {
+  height: 150px;
+  margin: 9px;
+}
+.about-me {
+  border: 10px solid white;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+  height: 450px;
+  right: 267px;
+  background: white;
+  margin-bottom: 100px;
+}
+
+.contact {
+  border: 10px solid white;
+  margin-left: -1px;
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  right: 267px;
+  background: white;
+  padding-left: 20px;
+}
+
+.menu {
+  margin: 0;
+  padding-bottom: 10px;
+  border: 7px solid white;
+}
+
+.name-field, .email-field {
+  color: #ccc;
+  width: 350px;
+  height: 20px;
+}
+
+div > p {
+  color: #747474;
+  padding-top: 4px;
+  line-height: 23px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+li:not(:first-child):after {
+  content: "|";
+  color: #ccc;
+}
+
+.social-images {
+  display: inline;
+  position: relative;
+}
+
+.social-port {
+  border: 10px solid white;
+  position: relative;
+  background: white;
+  display: inline-block;
+  left: -135px;
+  bottom: 3px;
+  float: right;
+}
+
+.social-about {
+  border: 10px solid white;
+  position: relative;
+  background: white;
+  display: inline-block;
+  left: -135px;
+  bottom: -1px;
+  float: right;
+}
+
+.social-contact {
+  border: 10px solid white;
+  position: relative;
+  background: white;
+  margin-right: 0px;
+  display: inline-block;
+  left: -135px;
+  bottom: 420px;
+  float: right;
+}
+
+.txt-on-img {
+  /*z-index: 100;*/
+  position: absolute;
+  /*color: white;
+  font-size: 50px;
+  left: 150px;
+  top: 350px;*/
+}
+
+footer {
+  text-align: center;
+  border-top: 4px solid #4aaaa5;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #ccc;
+  font-size: 12px;
+  background: #666;
+  padding: 26px;
+  clear: both;
+  position: fixed;
+}
