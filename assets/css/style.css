@@ -93,7 +93,7 @@ h3:after {
 .port-1, .port-2, .port-3, .port-4, .port-5 {
   height: 120px;
   width: 200px;
-  margin: 15px;
+/*  margin: 15px;*/
 }
 
 .portfolio {
@@ -140,8 +140,13 @@ a:link {
   font-size: 12px;
 }
 
+.Pmenu {
+  margin-left: 18px;
+}
+
 .Cmenu {
   margin-right: 150px;
+  margin-left: 18px;
 }
 
 .my-pic {
@@ -198,6 +203,7 @@ li {
 li:not(:first-child):after {
   content: "|";
   color: #ccc;
+  font-size: 15px;
 }
 
 .social-images {
@@ -210,8 +216,8 @@ li:not(:first-child):after {
   position: relative;
   background: white;
   display: inline-block;
-  left: -135px;
-  bottom: 3px;
+  left: 635px;
+  bottom: 555px;
   float: right;
 }
 
@@ -220,7 +226,7 @@ li:not(:first-child):after {
   position: relative;
   background: white;
   display: inline-block;
-  left: -135px;
+  left: -137px;
   bottom: -1px;
   float: right;
 }
@@ -231,7 +237,7 @@ li:not(:first-child):after {
   background: white;
   margin-right: 0px;
   display: inline-block;
-  left: -135px;
+  left: -138px;
   bottom: 420px;
   float: right;
 }
@@ -239,10 +245,21 @@ li:not(:first-child):after {
 .txt-on-img {
   /*z-index: 100;*/
   position: absolute;
+  bottom: 0px;
+  background-color: #4aaaa5;
+  height: 30px;
+  width: 100%;
+  color: #fff;
+
   /*color: white;
   font-size: 50px;
   left: 150px;
   top: 350px;*/
+}
+
+.image-container {
+  position: relative;
+  margin: 15px;
 }
 
 footer {
