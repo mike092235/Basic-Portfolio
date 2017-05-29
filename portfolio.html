@@ -1,103 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-  <title>Basic Portfolio</title>
+  <title>About Me</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-  <header>
-
-    <div class="myNameDiv">
-      <ul class="menu">
-        <li><a href="contact.html" class="Cmenu">Contact</a></li>
-        <li><a href="portfolio.html" class="Pmenu">Portfolio</a></li>
-        <li><a href="index.html" class="Amenu">About</a></li>
-      </ul>
-      <h1 class="myName">Michael Emmanuel</h1>
+  <header id="masthead">
+    <div class="container top-container"> <!-- changed from "container" to "top-container" -->
+      <a href="index.html" id="logo">Michael Emmanuel</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </header>
-  <br><br>
-
-  <div>
-    <div class="portfolio">
-      <h2>Portfolio</h2>
-        <table class="port-pics">
-        <tr>
-          <th>
-          <div class="image-container">
-          <img src="assets/images/headphones.jpg" class="port-1" alt="headphoneApp">
-          <div class="image-label">
-            <p class="txt-on-img">Headphone App</p>
-            </div>
-          </div>
-          
-          <th>
-          <div class="image-container">
-          <img src="assets/images/iphone.jpg" class="port-2" alt="iphoneApp">
-          <div class="image-label">
-            <p class="txt-on-img">iPhone App</p>
-            </div>
-          </div>
-          </th>
-        </tr>
-          <br><br>
-        <tr>
-
-          <th>
-          <div class="image-container">
-          <img src="assets/images/mp3.jpg" class="port-3" alt="mp3App">
-          <div class="image-label">
-            <p class="txt-on-img">mp3 App</p>
-            </div>
-          </div>
-          </th>
-          
-          <th>
-          <div class="image-container">
-          <img src="assets/images/overhead.jpg" class="port-4" alt="overheadApp">
-          <div class="image-label">
-            <p class="txt-on-img">Overhead App</p>
-            </div>
-          </div>
-          </th>
-
-        </tr>
-          <br><br>
-        <tr>
-        <th>
-          <div class="image-container">
-          <img src="assets/images/ubuntu.jpg" class="port-5" alt="ubuntu">
-          <div class="image-label">
-            <p class="txt-on-img">ubuntu</p>
-            </div>
-          </div>
-    
-    <div class="social-port">
-      <h3>Connect with Me</h3>
-      <br><br>
-      <section class="social-images">
-        <a href="https://github.com/mike092235" target="_blank">
-          <img src="assets/images/github_logo.jpg" class="git-logo" alt="Github">
-        </a>
-      
-        <a href="https://www.linkedin.com/in/michael-emmanuel-373868115?trk=nav_responsive_tab_profile" target="_blank">
-          <img src="assets/images/linked_in_logo.jpg" class="linked-logo" alt="linked-in">
-        </a>
-      
-        <a href="http://stackoverflow.com/users/7016722/michael-e" target="_blank">
-          <img src="assets/images/stack_logo.jpg" class="stack-logo" alt="StackOverflow">
-        </a>
-      </section>
-    </div>
-    <br><br>
-
   
-  <footer>&#169; 2016 Michael Emmanuel</footer>
+  <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>Portfolio</h1>
+        
+        <div class="work">
+          <img src="assets/images/headphones.jpg" class="auth-image" alt="headphones">
 
+          <a target="_blank" href="#"><h3>Headphone App</h3></a>
+        </div>
 
+        <div class="work">
+          <img src="assets/images/iphone.jpg" class="auth-image" alt="iPhone">
+
+          <a target="_blank" href="#"><h3>iPhone App</h3></a>
+        </div>
+
+        <div class="work">
+          <img src="assets/images/mp3.jpg" class="auth-image" alt="mp3">
+
+          <a target="_blank" href="#"><h3>mp3 App</h3></a>
+        </div>
+
+        <div class="work">
+          <img src="assets/images/overhead.jpg" class="auth-image" alt="overhead">
+
+          <a target="_blank" href="#"><h3>Overhead App</h3></a>
+        </div>
+
+        <div class="work">
+          <img src="assets/images/ubuntu.jpg" class="auth-image" alt="ubuntu">
+
+          <a target="_blank" href="#"><h3>Ubuntu App</h3></a>
+      </section>
+  
+    <section class="sidebar">
+      <h2>Connect with Me</h2>
+        <div class="soc-net">
+          <a target="_blank" href="https://www.github.com/mike092235"><img src="assets/images/github_logo.jpg" class="social" alt="Github"></a>
+          <img src="assets/images/linked_in_logo.jpg" class="social" alt="LinkedIn">
+          <img src="assets/images/stack_logo.jpg" class="social" alt="Stack Overflow">
+        </div>
+      
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; Copyright 2016 Michael Emmanuel
+    </div>
+  </footer>
 </body>
-
 </html>
